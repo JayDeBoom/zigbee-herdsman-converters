@@ -699,6 +699,13 @@ export const definitions: DefinitionWithExtend[] = [
         extend: [m.light({configureReporting: true}), m.identify(), gledoptoConfigureReadModelID()],
     },
     {
+    zigbeeModel: ['GL-P-002P'],
+    model: 'GL-P-002P',
+    vendor: 'GLEDOPTO',
+    description: 'Zigbee LED Controller Dimmer',
+    extend: [light({brightness: true})],
+    },
+    {
         zigbeeModel: ["GL-C-009S"],
         model: "GL-C-009S",
         vendor: "Gledopto",
